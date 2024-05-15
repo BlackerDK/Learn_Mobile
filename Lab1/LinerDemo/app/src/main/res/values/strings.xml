@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinerDemo</string>
+    <string name="php">PHP</string>
+    <string name="laptop">Laptop</string>
+    <string name="pc">PC</string>
+    <string name="android">Android</string>
+
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#3F4092"
+    android:id="@+id/main"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="126dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="128dp"
+        android:src="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/englishChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="160dp"
+        android:text="English"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="185dp"
+        android:gravity="center"
+        android:text="."
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/Change"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="120dp"
+        android:text="Change"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="377dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Email or Phone"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#9AB4C1"
+        android:text="Login with Facebook"
+        android:textColor="@android:color/white"
+        android:textColorLink="#FBC02D"
+        android:textIsSelectable="false"
+        app:cornerRadius="0dp"
+        app:rippleColor="#7B1FA2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="306dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="103dp"
+        android:gravity="center"
+        android:text="Sign Up for Facebook"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="56dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/question"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="108dp"
+        android:gravity="center"
+        android:text="Forgot Password?"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
