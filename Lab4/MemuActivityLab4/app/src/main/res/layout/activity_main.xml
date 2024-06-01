@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="86dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Đặt đồ ăn thức uống"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/select_food_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn thức ăn"
+
+        />
+
+    <Button
+        android:id="@+id/select_drink_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn đồ uống"
+        android:layout_marginTop="24dp" />
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_marginTop="24dp" />
+    <TextView
+        android:id="@+id/selected_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn đồ uống"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:textSize="15sp"
+        />
+</LinearLayout>
